@@ -1,0 +1,10 @@
+{
+    "rust-analyzer.linkedProjects": [
+        "backend/Cargo.toml"
+    ],
+    "rust-analyzer.cargo.targetDir": "target",
+    "tailwindCSS.classFunctions": [
+        "cva",
+        "cx"
+    ]
+}

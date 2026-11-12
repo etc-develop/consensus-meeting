@@ -1,0 +1,102 @@
+{
+	"core_common_fields": [
+		{
+			"field_key": "meeting_time",
+			"field_name": "開會時間",
+			"scope": "document",
+			"data_type": "TEXT",
+			"synonyms_matched": [
+				"開會時間",
+				"時間"
+			],
+			"description": "會議召開的日期和具體時間。"
+		},
+		{
+			"field_key": "meeting_title",
+			"field_name": "會議名稱",
+			"scope": "document",
+			"data_type": "TEXT",
+			"synonyms_matched": [
+				"會議名稱"
+			],
+			"description": "會議的標題或主題。"
+		},
+		{
+			"field_key": "chairperson",
+			"field_name": "主席",
+			"scope": "document",
+			"data_type": "VARCHAR(100)",
+			"synonyms_matched": [
+				"主席",
+				"主持人"
+			],
+			"description": "主持會議的人員名稱。"
+		},
+		{
+			"field_key": "attendees",
+			"field_name": "出席人員",
+			"scope": "document",
+			"data_type": "TEXT",
+			"synonyms_matched": [
+				"出席人員",
+				"參與人員"
+			],
+			"description": "參加會議的所有人員列表。"
+		},
+		{
+			"field_key": "meeting_location",
+			"field_name": "開會地點",
+			"scope": "document",
+			"data_type": "TEXT",
+			"synonyms_matched": [
+				"開會地點",
+				"地點"
+			],
+			"description": "會議召開的地點。"
+		},
+		{
+			"field_key": "recorder",
+			"field_name": "記錄人",
+			"scope": "document",
+			"data_type": "VARCHAR(100)",
+			"synonyms_matched": [
+				"記錄",
+				"紀錄"
+			],
+			"description": "負責會議記錄的人員名稱。"
+		}
+	],
+	"extended_special_fields": [
+		{
+			"field_key": "agenda_item",
+			"field_name": "議題",
+			"scope": "item",
+			"data_type": "TEXT",
+			"synonyms_matched": [
+				"議題",
+				"案由",
+				"討論事項"
+			],
+			"description": "會議中討論的主題或問題。"
+		},
+		{
+			"field_key": "resolution",
+			"field_name": "決議事項",
+			"scope": "item",
+			"data_type": "TEXT",
+			"url": "synonyms_matched",
+			"description": "會議中對討論議題所做出的決定或結論。"
+		},
+		{
+			"field_key": "notes",
+			"field_name": "備註",
+			"scope": "item",
+			"data_type": "TEXT",
+			"synonyms_matched": [
+				"備註",
+				"說明"
+			],
+			"description": "會議中對議題的補充說明或注意事項。"
+		}
+	]
+}
